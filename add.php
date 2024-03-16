@@ -15,9 +15,8 @@
             <label for="course_h">Course_Hours:</label>
             <input type="number" name="course_h" id="course_h" required><br>
             <input type="button" value="add course" onclick="window.location.href='User.php'"><br>
-            <a href="Logout.php">log-out</a><br>
-            <a href="delete.php">delete account?</a><br>
-            <a href="update.php">update your data</a><br>
+            <input type="button" value="log-out" onclick="window.location.href='Logout.php'"><br>
+            <input type="button" value="update your data" onclick="window.location.href='update.php'"><br>
         </form>
     </body>
 </html>
